@@ -1,0 +1,30 @@
+    :root{
+        $font_size: 10px;
+        $a: 1;
+        $width:100px;
+        $height:100px;
+    }
+    .card{
+        $color: green;
+        background:$color;
+        width:$width;
+        height: 100vh / 2;
+        font-size: $font_size;
+        opacity: 2 * $a / 3;
+    }
+/*
+        :root{
+        --font_size: 10px;
+        --a: 1;
+        --width:100px;
+        --height:100px;
+    }
+    .card{
+        --color: green;
+        background:var(--color);
+        width:var(--width);
+        height:calc( 100vh / 2);
+        font-size: var(--font_size);
+        opacity:calc( 2 * var(--a) / 3);
+    }
+*/
