@@ -1,0 +1,12 @@
+{
+  "name": "@allwcons/allwcons-css",
+  "version": "1.0.0",
+  "description": "***`To run acss`***",
+  "main": "allwcons-css.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "allwcons",
+  "license": "ISC"
+}
+

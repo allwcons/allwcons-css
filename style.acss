@@ -1,30 +1,18 @@
     :root{
         $font_size: 10px;
         $a: 1;
-        $width:100px;
+        $width:50px;
         $height:100px;
     }
-    .card{
-        $color: green;
-        background:$color;
-        width:$width;
-        height: 100vh / 2;
-        font-size: $font_size;
-        opacity: 2 * $a / 3;
-    }
-/*
-        :root{
-        --font_size: 10px;
-        --a: 1;
-        --width:100px;
-        --height:100px;
-    }
-    .card{
-        --color: green;
-        background:var(--color);
-        width:var(--width);
-        height:calc( 100vh / 2);
-        font-size: var(--font_size);
-        opacity:calc( 2 * var(--a) / 3);
-    }
-*/
+	.btn{
+	    background-color: if @mousedown ? red > green;
+	    width: $width;
+	    height: 100px;
+	    color: if @mousedown ? lightblue > yellow;
+	}
+	.card{
+		background:green;
+        width:if @mousedown ? $width * 3 > 200px;
+        transition:width 0.5s;
+	    height: 100px;
+	}
