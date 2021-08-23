@@ -205,6 +205,5 @@ if (!String.prototype.splice) {
     };
 }
 
-module.exports = runAcss;
 
 // runAcss("style.acss")
